@@ -1,0 +1,8 @@
+Two shell scripts which allow you to access the internet from your BeagleBone
+Black, using the USB connection to a host computer.
+
+The script "hostComputer/beaglebone.sh" should be run as root on the host
+computer (after having configured the --out-interface to your network device).
+
+After that is run, the script under the beaglebone folder should be run as root
+on the BBB.
